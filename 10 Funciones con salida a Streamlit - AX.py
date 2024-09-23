@@ -1,4 +1,4 @@
-# Ejercicio 10: Configuración de la aplicación
+# Configuración de la aplicación
 import streamlit as st
 
 # Funciones
