@@ -3,10 +3,7 @@ import streamlit as st
 st.title("10 Funciones Simplificadas - AX")
 
 # Sidebar para seleccionar el ejercicio
-e = st.sidebar.selectbox("Selecciona un ejercicio:", [
-    "Saludo", "Suma de dos números", "Área de un triángulo", "Calculadora de descuento",
-    "Suma de una lista", "Valores predeterminados", "Números pares e impares",
-    "Multiplicación", "Información personal", "Calculadora flexible"
+e = st.sidebar.selectbox("Selecciona un ejercicio:", ["Saludo", "Suma de dos números", "Área de un triángulo", "Calculadora de descuento", "Suma de una lista", "Valores predeterminados", "Números pares e impares", "Multiplicación", "Información personal", "Calculadora flexible"
 ])
 
 if e == "Saludo":
